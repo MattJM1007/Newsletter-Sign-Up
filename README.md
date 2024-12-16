@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [clicky click](https://your-solution-url.com)
-- Live Site URL: [click click](https://your-live-site-url.com)
+- Solution URL: [clicky click](https://github.com/MattJM1007/Newsletter-Sign-Up)
+- Live Site URL: [click click](https://mattjm1007.github.io/Newsletter-Sign-Up/)
 
 ## My process
 
