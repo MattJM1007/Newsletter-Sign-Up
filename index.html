@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./styles.css">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+</head>
+
+<body>
+  <section class="form-container">
+    <form action="" class="newsletter-form" novalidate>
+      <h1 class="title">Stay updated!</h1>
+      <p class="description">  Join 60,000+ product managers receiving monthly updates on:</p>
+      <ol role="list" class="list">
+        <li class="list-item">Product discovery and building what matters</li>
+        <li class="list-item">Measuring to ensure updates are a success</li>
+        <li class="list-item">And much more!</li>
+      </ol>
+
+      <div class="form-inputs">
+        <div class="email-error-messages">
+           <label for="email" class="email-input-label">Email address</label>
+          <span aria-live="polite" id="email-error"></span>
+        </div>
+        <input type="text" name="email" id="email-input" class="" placeholder="email@company.com">
+        <input type="submit" name="subscribe" class="form-btn" id="submit-btn" value="Subscribe to monthly newsletter">
+      </div>
+    </form>
+    
+    <picture class="hero-img">
+      <source srcset="./assets/images/illustration-sign-up-mobile.svg" media="(max-width: 810px)">
+      <img src="./assets/images/illustration-sign-up-desktop.svg" alt="">
+    </picture>
+  </section>
+  
+  <section class="success-container hidden">
+    <img srcset="./assets/images/icon-success.svg" alt="success checkmark">
+    <h2 class="title">Thanks for subscribing!</h2>
+    <p class="success-msg"> A confirmation email has been sent to <strong>ash@loremcompany.com</strong>. Please open it and click the button inside to confirm your subscription.</p>
+    <button class="form-btn" id="dismiss-btn">Dismiss message</button>
+  </section>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/MattJM1007">Matthew Miguel</a>.
+  </footer>
+  <script src="./index.js"></script>
+</body>
+</html>
